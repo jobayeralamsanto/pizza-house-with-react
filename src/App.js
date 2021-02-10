@@ -1,22 +1,17 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import About from "./components/About";
-import Shop from "./components/Shop";
-import Clients from "./components/Clients";
-import Menu from "./components/Menu";
-import Prices from "./components/Prices";
+import Headerbottom from "./components/Headerbottom";
+
 
 function App() {
   return (
     <div>
+      <Navbar/>
       <Header />
-      <About />
-      <Shop />
-      <Clients />
-      <Menu />
-      <Prices />
-      
+      <Headerbottom />
+     
     </div>
   );
 }
